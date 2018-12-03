@@ -14,6 +14,8 @@
 		9909CAE621B510F2008BD0F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9909CAE421B510F2008BD0F8 /* LaunchScreen.storyboard */; };
 		9909CAF121B510F2008BD0F8 /* YPWaterFallLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9909CAF021B510F2008BD0F8 /* YPWaterFallLayoutTests.swift */; };
 		9909CAFC21B510F2008BD0F8 /* YPWaterFallLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9909CAFB21B510F2008BD0F8 /* YPWaterFallLayoutUITests.swift */; };
+		9909CB0C21B513B3008BD0F8 /* UIColor-YPExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9909CB0B21B513B3008BD0F8 /* UIColor-YPExtension.swift */; };
+		9909CB0E21B515A0008BD0F8 /* YPWaterFallLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9909CB0D21B515A0008BD0F8 /* YPWaterFallLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9909CAF721B510F2008BD0F8 /* YPWaterFallLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YPWaterFallLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9909CAFB21B510F2008BD0F8 /* YPWaterFallLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPWaterFallLayoutUITests.swift; sourceTree = "<group>"; };
 		9909CAFD21B510F2008BD0F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9909CB0B21B513B3008BD0F8 /* UIColor-YPExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor-YPExtension.swift"; sourceTree = "<group>"; };
+		9909CB0D21B515A0008BD0F8 /* YPWaterFallLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YPWaterFallLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		9909CADA21B510EF008BD0F8 /* YPWaterFallLayout */ = {
 			isa = PBXGroup;
 			children = (
+				9909CB0B21B513B3008BD0F8 /* UIColor-YPExtension.swift */,
 				9909CADB21B510EF008BD0F8 /* AppDelegate.swift */,
 				9909CADD21B510EF008BD0F8 /* ViewController.swift */,
 				9909CADF21B510EF008BD0F8 /* Main.storyboard */,
 				9909CAE221B510F2008BD0F8 /* Assets.xcassets */,
 				9909CAE421B510F2008BD0F8 /* LaunchScreen.storyboard */,
 				9909CAE721B510F2008BD0F8 /* Info.plist */,
+				9909CB0D21B515A0008BD0F8 /* YPWaterFallLayout.swift */,
 			);
 			path = YPWaterFallLayout;
 			sourceTree = "<group>";
@@ -187,6 +193,7 @@
 		9909CAD021B510EF008BD0F8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = YP;
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = LYP;
@@ -257,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9909CADE21B510EF008BD0F8 /* ViewController.swift in Sources */,
+				9909CB0C21B513B3008BD0F8 /* UIColor-YPExtension.swift in Sources */,
 				9909CADC21B510EF008BD0F8 /* AppDelegate.swift in Sources */,
+				9909CB0E21B515A0008BD0F8 /* YPWaterFallLayout.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +446,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = animal.YPWaterFallLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = "animal.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -455,7 +464,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = animal.YPWaterFallLayout;
+				PRODUCT_BUNDLE_IDENTIFIER = "animal.---";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
